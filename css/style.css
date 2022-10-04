@@ -3,3 +3,51 @@
   src: url('../fonts/Roboto-Black.ttf') format('truetype');
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  width: 100%;
+}
+.f-row {
+  display: flex;
+  flex-direction: row;
+}
+.f-col {
+  display: flex;
+  flex-direction: column;
+}
+
+header, main, footer {
+  width: 100%;
+  margin: auto;
+  background-color: #1F2937;
+  font-family: 'Roboto', sans-serif;
+  color: #F9FAF8;
+}
+header {
+  padding: 5px;
+}
+header h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #F9FAF8;
+  font-size: 24px;
+}
+.navbar {
+  width: 80%;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  list-style: none;
+  text-decoration: none;
+}
+nav a {
+  text-decoration: none;
+  color: #F9FAF8;
+}
