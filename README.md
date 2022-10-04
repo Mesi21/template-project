@@ -1,8 +1,10 @@
 # Template Project
 
+This project is a basic html-css template project based on a given design.
+
 ## Live version
 
-[Template-Project]]()
+[Template-Project]()
 
 ## Authors
 
