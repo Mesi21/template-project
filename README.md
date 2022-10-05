@@ -4,7 +4,7 @@ This project is a basic html-css template project based on a given design.
 
 ## Live version
 
-[Template-Project]()
+[Template-Project](https://mesi21.github.io/template-project/)
 
 ## Authors
 
@@ -14,6 +14,9 @@ This project is a basic html-css template project based on a given design.
 - [LinkedIn](https://www.linkedin.com/in/emesemesimolnar/)
 - [Twitter](https://twitter.com/buksimesi21)
 
+## Future features
+
+- Responsible design
 
 ## 🤝 Contributing
 
