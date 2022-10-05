@@ -10,6 +10,10 @@
   font-family: 'RobotoReg';
   src: url('../fonts/Roboto-Regular.ttf') format('truetype');
 }
+@font-face {
+  font-family: 'RobotoLightI';
+  src: url('../fonts/Roboto-LightItalic.ttf') format('truetype');
+}
 
 * {
   margin: 0;
@@ -47,18 +51,16 @@ header {
 nav h3 {
   color: #F9FAF8;
   font-size: 24px;
-  border: 2px solid green;
 }
 nav ul {
   list-style: none;
   text-decoration: none;
-  width: 60%;
   justify-content: space-between;
-
 }
 nav a {
   text-decoration: none;
   font-weight: 100;
+  padding: 0 0 0 75px;
 }
 nav a, p {
   color: #E5E7EB;
@@ -103,23 +105,39 @@ nav a, p {
 .imgs {
   width: 80%;
   margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  height: 25rem;
+}
+.imgs h1 {
+  margin: 0 0 50px 0;
+  font-family: 'RobotoBold';
 }
 .figures {
   width: 80%;
   margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
 }
 figcaption {
   width: 150px;
+  text-align: center;
 }
 .blue-square {
   width: 150px;
   height: 150px;
   border: 2px solid #3882F6;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 .greybck {
   background-color: #E5E7EB;
   font-size: 36px;
-  font-style: italic;
+  font-family: 'RobotoLightI';
+  color: #1F2937;
+  padding: 60px 400px;
+}
+.greybck p {
+  color: #1F2937;
+  font-style: normal;
 }
