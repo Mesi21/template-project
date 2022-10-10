@@ -35,19 +35,20 @@ body {
 
 header, footer {
   width: 100%;
+  color: #F9FAF8;
+  font-size: 18px;
   background-color: #1F2937;
 }
+header {
+  padding: 5px 0;
+  justify-content: space-around;
+  align-items: center;
+}
 .navbar {
-  width: 80%;
-  margin: 0 auto;
   padding: 15px 0;
   font-family: 'Roboto', sans-serif;
   justify-content: space-between;
   align-items: center;
-}
-nav h1 {
-  color: #F9FAF8;
-  font-size: 24px;
 }
 nav ul {
   list-style: none;
@@ -68,8 +69,10 @@ nav a, p {
   font-size: 18px;
 }
 .title {
-  width: 80%;
-  margin: 0 auto;
+  width: 100%;
+  background-color: #1F2937;
+  justify-content: space-around;
+  align-items: center;
 }
 .title h1 {
   color: #F9FAF8;
@@ -79,9 +82,8 @@ nav a, p {
   font-family: "RobotoBlack", sans-serif;
 }
 .col-left {
-  width: 45%;
   padding: 80px 0;
-  justify-content: flex-start;
+  justify-content: center;
 }
 .col-left button {
   width: 100px;
@@ -95,11 +97,6 @@ nav a, p {
   font-family: 'Roboto';
 }
 .col-right {
-  width: 55%;
-  justify-content: center;
-  align-items: flex-end;
-}
-.col-right img {
   border-radius: 50%;
   height: 200px;
   weight: 200px;
