@@ -59,6 +59,10 @@ nav a {
   font-weight: 100;
   padding: 0 0 0 75px;
 }
+nav a:hover {
+  cursor: pointer;
+  color: aqua;
+}
 nav a, p {
   color: #E5E7EB;
   font-size: 18px;
